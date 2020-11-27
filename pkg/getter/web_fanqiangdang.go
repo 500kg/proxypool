@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Sansui233/proxypool/pkg/proxy"
-	"github.com/Sansui233/proxypool/pkg/tool"
+	"github.com/back20/proxypool/pkg/proxy"
+	"github.com/back20/proxypool/pkg/tool"
 	"github.com/gocolly/colly"
 )
 

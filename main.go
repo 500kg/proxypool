@@ -6,11 +6,11 @@ import (
 	_ "net/http/pprof"
 	"os"
 
-	"github.com/Sansui233/proxypool/api"
-	"github.com/Sansui233/proxypool/internal/app"
-	"github.com/Sansui233/proxypool/internal/cron"
-	"github.com/Sansui233/proxypool/internal/database"
-	"github.com/Sansui233/proxypool/pkg/proxy"
+	"github.com/back20/proxypool/api"
+	"github.com/back20/proxypool/internal/app"
+	"github.com/back20/proxypool/internal/cron"
+	"github.com/back20/proxypool/internal/database"
+	"github.com/back20/proxypool/pkg/proxy"
 )
 
 var configFilePath = ""
